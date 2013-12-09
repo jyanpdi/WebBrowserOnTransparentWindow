@@ -50,6 +50,7 @@ namespace WebBrowserOnTransparentWindow
         }
 
         public enum OverlayStyle { 
+	    unknown,
             WPF, // Can't use opacity.
             WinForms // Flicker on resize when opacity is used without DWM composition
         };
